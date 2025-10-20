@@ -9,34 +9,18 @@
     "reload_style_on_change": true,
 
     "modules-left": [
-        "custom/l-end",
         "custom/niri-workspaces",
-        "custom/r-end",
-        "custom/l-end",
         "custom/spotify",
-        "custom/r-end"
     ],
     "modules-center": [
-        "custom/l-end",
         "clock",
-        "custom/r-end"
     ],
     "modules-right": [
-        "custom/l-end",
         "pulseaudio",
-        "custom/r-end",
-        "custom/l-end",
         "network",
-        "custom/r-end",
-        "custom/l-end",
         "cpu",
-        "custom/r-end",
-        "custom/l-end",
         "memory",
-        "custom/r-end",
-        "custom/l-end",
         "battery",
-        "custom/r-end"
     ],
 
     "custom/niri-workspaces": {
