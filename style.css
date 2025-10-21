@@ -20,7 +20,8 @@ window#waybar {
 #memory,
 #battery,
 #network,
-#pulseaudio {
+#pulseaudio,
+#tray {
     padding: 0 12px;
     margin: 4px 2px;
     background-color: rgba(23, 23, 23, 0.6);
@@ -122,6 +123,12 @@ window#waybar {
 
 #pulseaudio.muted {
     color: #808080;
+}
+
+/* Tray */
+#tray {
+    color: #A1BDCE;
+    margin-right: 12px;
 }
 
 /* Tooltips */

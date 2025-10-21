@@ -21,6 +21,7 @@
         "cpu",
         "memory",
         "battery",
+        "tray",
     ],
 
     "custom/niri-workspaces": {
@@ -80,8 +81,8 @@
             "critical": 15
         },
         "format": "BAT {capacity}%",
-        "format-charging": " {capacity}%",
-        "format-plugged": " {capacity}%"
+        "format-charging": "BAT {capacity}%",
+        "format-plugged": "BAT {capacity}%"
     },
 
     "network": {
@@ -98,5 +99,10 @@
         "format-muted": "MUT {volume}%",
         "on-click": "pavucontrol",
         "scroll-step": 5
+    },
+
+    "tray": {
+        "icon-size": 16,
+        "spacing": 8
     }
 }
