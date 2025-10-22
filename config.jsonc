@@ -11,9 +11,9 @@
     "modules-left": [
         "custom/niri-workspaces",
         "custom/spotify",
+        "clock",
     ],
     "modules-center": [
-        "clock",
     ],
     "modules-right": [
         "pulseaudio",
